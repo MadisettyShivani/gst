@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    
+        <nav class="navbar">
+
+            <ul class="navbar-lists">
+                <li><a class="navbar-links" href="">HOME</a></li>
+                <li><a class="navbar-links" href="">ABOUT</a></li>
+                <li><a class="navbar-links" href="">SERVICES</a></li>
+                <li><a class="navbar-links" href="">ABOUT US</a></li>
+            </ul>
+
+
+        
+         <div class="boxes" onclick = "navSlide()">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        <h1>USER DETAILS</h1>
+
+
+        <p> Name </p>
+        <input type="text" id="one" placeholder="name">
+
+        <P>E-mail </p>
+        <input type="text" id="two" placeholder="email">
+
+        <p>Password</p>
+        <input type="password" id="three" placeholder="password">
+
+        <p> phonenumber </p>
+        <input type="number" id="four" placeholder="number">
+    </div>
+    <div class="contain">
+        <div class="img1"><img src="./images/download.jpg" alt="">
+            <p>Baga Beach</p>
+            <p>Amount - 1000</p>
+        </div>
+        <div class="img2"><img src="./images/Goa.jpg" alt="">
+            <p>Butterfly Beach</p>
+            <p>Amount - 1500</p>
+        </div>
+        <div class="img3"><img src="./images/old-goa.jpg" alt="">
+            <p>Old Goa (Velha Goa)</p>
+            <p>Amount - 800</p>
+        </div>
+        <div class="img4"><img src="./images/Dudhs.webp" alt="">
+            <p>Dudhsagar Waterfalls</p>
+            <p>Amount -900</p>
+        </div>
+        <div class="img5"><img src="./images/download (1).jpg" alt="">
+            <p>Chapora Fort</p>
+            <p>Amount - 1300</p>
+        </div>
+    </div>
+    <div class="container1">
+
+        <h1> 3 DAYS BUDGET FOR GOA TRIP</h1>
+        <p>Baga Beach</p>
+        <input type="text" id="beach1">
+
+        <p>Butterfly Beach</p>
+        <input type="text" id="waterfalls">
+
+        <p>Old Goa (Velha Goa) </p>
+        <input type="text" id="oldgoa">
+
+        <p>Dudhsagar Waterfalls</p>
+        <input type="text" id="temple">
+
+        <p>Chapora Fort </p>
+        <input type="text" id="fork">
+
+        <p>Gst </p>
+        <input type="text" id="gst">
+        <button onclick="trip()" id="trip-button">Payment</button>
+
+    </div>
+    <p id="shiva"></p>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
